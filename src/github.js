@@ -269,7 +269,7 @@
         }
         // Type - 0 - only profile
         
-        // Type - 1 - profile and acitivity feed
+        // Type - 1 - profile and activity feed
         gitMethods.renderContent(gitMethods.getRenderedHTML(gitTemplates['parentTpl'],{
           type: type
         }),options.selector);
